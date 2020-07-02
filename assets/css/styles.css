@@ -1,0 +1,111 @@
+body {
+    padding-bottom: 50px
+}
+
+.main-container {
+    margin-top: 20px
+}
+
+.footer {
+    position: absolute;
+    bottom: 4%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+img.logo {
+    max-width: 30%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+}
+
+.yellow {
+    color: #e9c624
+}
+
+.green {
+    color: #4c7122
+}
+
+/* Animate */
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+@media (min-width: 668px) and (max-width: 736px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h5 {
+        font-size: 1.1rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    .center {
+        width: 75%;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 684px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h5 {
+        font-size: 1.2rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    .center {
+        width: 85%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 414px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h5 {
+        font-size: 1.25rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    .center {
+        width: 75%;
+    }
+    img.logo {
+        max-width: 50%;
+    }
+}
+
