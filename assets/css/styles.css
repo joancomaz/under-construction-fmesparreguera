@@ -91,7 +91,7 @@ img.logo {
     }
 }
 
-@media (min-width: 375px) and (max-width: 414px) {
+@media (min-width: 360px) and (max-width: 414px) {
     h1 {
         font-size: 2rem;
     }
@@ -102,7 +102,7 @@ img.logo {
         font-size: 1.5rem;
     }
     .center {
-        width: 75%;
+        width: 85%;
     }
     img.logo {
         max-width: 50%;
